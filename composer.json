@@ -1,0 +1,17 @@
+{
+    "name": "manugarcia123/packagetest",
+    "description": "Ejemplo de crear un package en PHP",
+    "license": "MIT",
+    "keywords": ["foo"],
+    "authors": [
+        {
+            "name": "Jose Manuel",
+            "email": "mg.jmanuel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+        "Manugarcia123\\PackageTest\\": "src/"
+    }
+  }
+}
